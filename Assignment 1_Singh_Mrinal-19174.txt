@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meet [MRINAL SINGH], UOH Sugarland Cafeteria</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>UOH Sugarland Cafeteria</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#">Hours & Location</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <img src="IMG_0678.heic" alt="[MRINAL SINGH] - UOH Sugarland Cafeteria Owner">
+      <h2>Meet [MRINAL SINGH], the Culinary Maestro!</h2>
+      <p>Welcome to UOH Sugarland Cafeteria! I'm passionate about bringing delicious and satisfying meals to our campus community. Explore our menu and discover your new favorites!</p>
+      <a href="menu.html" class="btn">Explore Our Delicious Menu!</a>
+    </section>
+    <section class="about">
+      <h3>About Me</h3>
+      <p>Introducing the culinary maestro behind UOH Sugarland Cafeteria: Meet Mrinal Singh, a culinary virtuoso driven by a passion for delighting taste buds. With a blend of expertise honed in renowned kitchens and a dash of entrepreneurial spirit, Mrinal's journey to culinary excellence culminates in this gastronomic haven. Infused with creativity and dedication, his culinary creations tell stories of flavor, innovation, and tradition. From his humble beginnings as a kitchen apprentice to orchestrating a culinary symphony in his own establishment, Mrinal's relentless pursuit of perfection shines through in every dish. Join us on a journey where each bite is a celebration of Mrinal's culinary legacy.The UOH Sugarland Cafeteria serves more than just meals; it nourishes the campus community, fueling students for academic pursuits and social connections..</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; UOH Sugarland Cafeteria 2024</p>
+  </footer>
+</body>
+</html>
+
+CSS
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.hero p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+}
